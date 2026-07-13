@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from statsmodels.tsa.stattools import adfuller
 
-# Ensure project root is in path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from src.data_processing import load_and_clean_data, calculate_log_returns
