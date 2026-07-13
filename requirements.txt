@@ -1,0 +1,10 @@
+pymc>=5.0.0
+arviz
+pandas
+numpy
+matplotlib
+seaborn
+flask
+flask-cors
+pytest
+jupyter
