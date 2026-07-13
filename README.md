@@ -27,3 +27,16 @@ A Bayesian Change Point model maps out sudden structural adjustments in the unde
 1. Create a clean virtual environment: `python3 -m venv venv && source venv/bin/activate`
 2. Install structured dependencies: `pip install -r requirements.txt`
 3. Execute the diagnostic workspace pipeline: `python scripts/run_eda.py`
+
+## 🖥️ Section 3: Interactive Dashboard Deployment Engine
+
+Our dashboard application uses a dual-runtime architecture, pairing a Python Flask REST service with a decoupled React user interface web app.
+
+### 1. Initializing the Flask Backend Service Engine
+From your system terminal panel inside your active virtual workspace, run these layout setup calls:
+```bash
+# Ensure required packages are globally synchronized
+pip install flask flask-cors pandas numpy
+
+# Spin up the development API channel server
+python app.py

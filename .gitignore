@@ -8,3 +8,5 @@ venv/
 .DS_Store
 *.xlsx
 data/raw/
+build/
+node_modules/
